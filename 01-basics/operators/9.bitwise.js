@@ -8,12 +8,12 @@ const execute = 4;
 
 let myPermission = 0;
 myPermission = myPermission | read | write; // turn flags on
-console.log("has read?", Boolean(myPermission & read));
-console.log("has write?", Boolean(myPermission & write));
-console.log("has execute?", Boolean(myPermission & execute));
+console.log(myPermission & read); // non-zero = has read
+console.log(myPermission & write); // non-zero = has write
+console.log(myPermission & execute); // 0 = no execute
 
 myPermission = myPermission & ~write; // turn write off
-console.log("has write after ~?", Boolean(myPermission & write));
+console.log(myPermission & write); // 0 = write off
 
 // Try it:
 // - Give yourself execute too with |= and check with &.

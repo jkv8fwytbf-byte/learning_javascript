@@ -8,8 +8,8 @@ let temp = a;
 a = b;
 b = temp;
 
-console.log("a:", a); // blue
-console.log("b:", b); // red
+console.log(a); // blue
+console.log(b); // red
 
 // One-liner (destructuring):
 // [a, b] = [b, a];

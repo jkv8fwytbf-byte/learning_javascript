@@ -5,13 +5,13 @@ const hasGoodCredit = true;
 const hasCriminalRecord = false;
 
 const eligible = isHighIncome && hasGoodCredit;
-console.log("eligible (&&):", eligible);
+console.log(eligible);
 
 const approved = (isHighIncome || hasGoodCredit) && !hasCriminalRecord;
-console.log("approved:", approved);
+console.log(approved);
 
-console.log("!true =", !true);
-console.log("!false =", !false);
+console.log(!true);
+console.log(!false);
 
 // Try it:
 // - Change hasCriminalRecord to true and see approved flip.
