@@ -1,12 +1,14 @@
 // Factory function: a function that returns a new object.
 
 function createCircle(radius) {
-  return {
+  // Build the object, then return it (same idea as return { ... } directly).
+  const circle = {
     radius,
     draw() {
       console.log("draw");
     },
   };
+  return circle;
 }
 
 const circle1 = createCircle(1);
