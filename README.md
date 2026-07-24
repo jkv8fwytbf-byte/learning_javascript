@@ -6,7 +6,7 @@ Your computer already has **Node.js** installed. That means you can run `.js` fi
 
 ## Two ways JavaScript runs
 
-1. **Node (terminal)** — files in `01-basics/`. Great for learning language basics.
+1. **Node (terminal)** — files in `1-basics/` and `2-controlFlow/`. Great for learning language basics.
 2. **Browser** — files in `02-browser/`. JavaScript can change what you see on a webpage.
 
 ## How to run a Node file
@@ -21,7 +21,7 @@ cd ~/Desktop/javascript
 3. Run a file with Node:
 
 ```bash
-node 01-basics/1.hello.js
+node 1-basics/1.hello.js
 ```
 
 You should see text print in the terminal. That text comes from `console.log(...)`.
@@ -37,12 +37,13 @@ You should see text print in the terminal. That text comes from `console.log(...
 
 ## Suggested order
 
-1. `01-basics/1.hello.js`
-2. `01-basics/2.variables.js`
-3. `01-basics/operators/` (start with `1.operators.js`)
-4. `01-basics/3.functions.js`
-5. `01-basics/4.objects.js`
-6. `01-basics/5.array.js`
-7. `02-browser/index.html` + `1.script.js`
+1. `1-basics/1.hello.js`
+2. `1-basics/2.variables.js`
+3. `1-basics/operators/` (start with `1.operators.js`)
+4. `1-basics/3.functions.js`
+5. `1-basics/4.objects.js`
+6. `1-basics/5.array.js`
+7. `2-controlFlow/` (start with `1.if-else.js`)
+8. `02-browser/index.html` + `1.script.js`
 
 Change the code. Break it on purpose. Fix it. That’s how learning sticks.
