@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Browser JavaScript</title>
+    <style>
+      body {
+        font-family: Georgia, "Times New Roman", serif;
+        max-width: 32rem;
+        margin: 3rem auto;
+        padding: 0 1.25rem;
+        line-height: 1.5;
+        color: #1a1a1a;
+        background: #f7f3ec;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        margin: 0.75rem 0 1.25rem;
+      }
+
+      button {
+        font: inherit;
+        padding: 0.6rem 1rem;
+        cursor: pointer;
+        border: 2px solid #1a1a1a;
+        background: #fff;
+      }
+
+      button:hover {
+        background: #1a1a1a;
+        color: #fff;
+      }
+
+      #message {
+        margin-top: 1.25rem;
+        font-size: 1.125rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Browser JavaScript</h1>
+    <p>Click the button. The message below will change — that is JavaScript talking to the page.</p>
+
+    <button id="change-btn" type="button">Click me</button>
+    <p id="message">Waiting for a click...</p>
+
+    <!-- Load our JavaScript after the HTML elements exist -->
+    <script src="script.js"></script>
+  </body>
+</html>
