@@ -1,4 +1,5 @@
-// Constructor function: use `new` + PascalCase name to build an object.
+// Constructor: PascalCase name + call with `new`.
+// new does: 1) empty object as this  2) run body  3) return this
 
 function Circle(radius) {
   this.radius = radius;
@@ -7,9 +8,11 @@ function Circle(radius) {
   };
 }
 
-const circle = new Circle(1);
-console.log(circle);
+const circle1 = new Circle(1);
+const circle2 = new Circle(2);
+console.log(circle1);
+console.log(circle2);
 
 // Try it:
-// - Create two Circle instances with new
-// - Compare this to the factory function in 2.factory-functions.js
+// - Call draw on circle1
+// - Compare this file to 2.factory-functions.js (same idea, different style)
