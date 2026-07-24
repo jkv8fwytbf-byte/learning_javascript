@@ -9,4 +9,4 @@ console.log(typeof name);
 // Try it:
 // 1. Change the text inside the quotes above.
 // 2. Save the file.
-// 3. Run again: node 01-basics/hello.js
+// 3. Run again: node 01-basics/1.hello.js
