@@ -2,18 +2,18 @@
 
 const name = "Siddharth";
 
-// const oldWay = "Hi " + name + "!";
-// const better = `Hi ${name}!`;
+const oldWay = "Hi " + name + "!";
+const better = `Hi ${name}!`;
 
-// const email = `Hi ${name},
+const email = `Hi ${name},
 
-// Thank you for joining.
+Thank you for joining.
 
-// Regards,
-// Sidd`;
+Regards,
+Sidd`;
 
-// console.log(better);
-// console.log(email);
+console.log(better);
+console.log(email);
 
 // Try it:
 // - Rewrite a "Hello " + name string using a template literal

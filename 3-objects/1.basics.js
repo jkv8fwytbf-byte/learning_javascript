@@ -6,15 +6,15 @@ const circle = {
     x: 1,
     y: 1,
   },
-  // isVisible: true,
-  // draw: function () {
-  //   console.log("draw");
-  // },
+  isVisible: true,
+  draw: function () {
+    console.log("draw");
+  },
 };
 
-// console.log(circle.radius);        // dot notation
-// console.log(circle["location"]);  // bracket notation
-// circle.draw();
+console.log(circle.radius);        // dot notation
+console.log(circle["location"]);  // bracket notation
+circle.draw();
 
 // Try it:
 // - Add isVisible and a draw method, then call draw

@@ -7,10 +7,11 @@ const circle = {
   },
 };
 
-// const another = Object.assign({}, circle);
-// const another = { ...circle }; // spread (same idea)
+const another = Object.assign({}, circle);
+const cloned = { ...circle }; // spread (same idea)
 
-// console.log(another);
+console.log(another);
+console.log(cloned);
 
 // Try it:
 // - Clone circle with Object.assign into a new empty object

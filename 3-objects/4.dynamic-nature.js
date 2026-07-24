@@ -4,12 +4,12 @@ const circle = {
   radius: 1,
 };
 
-// circle.color = "yellow";
-// circle.draw = function () {};
-// delete circle.color;
-// delete circle.draw;
+circle.color = "yellow";
+circle.draw = function () {};
+delete circle.color;
+delete circle.draw;
 
-// console.log(circle);
+console.log(circle);
 
 // Try it:
 // - Add a color property, then delete it
