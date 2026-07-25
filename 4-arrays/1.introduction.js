@@ -2,9 +2,9 @@
 
 const numbers = [3, 4];
 
-// console.log(numbers);
-// console.log(numbers[0]);
-// console.log(numbers.length);
+console.log(numbers);
+console.log(numbers[0]);
+console.log(numbers.length);
 
 // Try it:
 // - Log the first and last element

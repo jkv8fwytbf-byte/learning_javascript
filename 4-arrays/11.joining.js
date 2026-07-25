@@ -2,13 +2,13 @@
 
 const numbers = [1, 2, 3];
 
-// const joined = numbers.join(",");
-// console.log(joined);
+const joined = numbers.join(",");
+console.log(joined);
 
-// const message = "This is my first message";
-// const parts = message.split(" ");
-// console.log(parts);
-// console.log(parts.join("-"));
+const message = "This is my first message";
+const parts = message.split(" ");
+console.log(parts);
+console.log(parts.join("-"));
 
 // Try it:
 // - join [1, 2, 3] with "-" 

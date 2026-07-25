@@ -9,8 +9,8 @@ const courses = [
 //   return course.name === "a";
 // });
 
-// const course = courses.find((course) => course.name === "a");
-// console.log(course);
+const course = courses.find((course) => course.name === "a");
+console.log(course);
 
 // Try it:
 // - Rewrite the function callback above as an arrow function
