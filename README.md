@@ -6,7 +6,7 @@ Your computer already has **Node.js** installed. That means you can run `.js` fi
 
 ## Two ways JavaScript runs
 
-1. **Node (terminal)** — files in `1-basics/`, `2-controlFlow/`, and `3-objects/`. Great for learning language basics.
+1. **Node (terminal)** — files in `1-basics/`, `2-controlFlow/`, `3-objects/`, `4-arrays/`, and `5-functions/`. Great for learning language basics.
 2. **Browser** — files in `02-browser/`. JavaScript can change what you see on a webpage.
 
 ## How to run a Node file
@@ -45,6 +45,8 @@ You should see text print in the terminal. That text comes from `console.log(...
 6. `1-basics/5.array.js`
 7. `2-controlFlow/` (start with `1.if-else.js`)
 8. `3-objects/` (start with `1.basics.js`)
-9. `02-browser/index.html` + `1.script.js`
+9. `4-arrays/` (start with `1.introduction.js`)
+10. `5-functions/` (start with `1.declarations-vs-expressions.js`)
+11. `02-browser/index.html` + `1.script.js`
 
 Change the code. Break it on purpose. Fix it. That’s how learning sticks.
