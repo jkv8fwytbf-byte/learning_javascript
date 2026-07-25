@@ -2,9 +2,9 @@
 
 const colors = ["red", "green", "blue"];
 
-// for (let color of colors) {
-//   console.log(color);
-// }
+for (let color of colors) {
+  console.log(color);
+}
 
 // Try it:
 // - Compare for...of vs for...in on the same array
