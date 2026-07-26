@@ -5,12 +5,18 @@ const circle = {
 };
 
 circle.color = "yellow";
-circle.draw = function () {};
+circle.draw = function () {
+  console.log("draw");
+};
+
+console.log(circle);
+circle.draw();
+
 delete circle.color;
 delete circle.draw;
 
 console.log(circle);
 
 // Try it:
-// - Add a color property, then delete it
+// - Add a location property, then delete it
 // - Add a method, call it, then delete it

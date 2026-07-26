@@ -1,21 +1,21 @@
 // Factory function: a function that returns a new object.
 
 function createCircle(radius) {
-  // Build the object, then return it (same idea as return { ... } directly).
-  const circle = {
+  return {
     radius,
     draw() {
       console.log("draw");
     },
   };
-  return circle;
 }
 
 const circle1 = createCircle(1);
 const circle2 = createCircle(2);
+
 console.log(circle1);
 console.log(circle2);
+circle1.draw();
 
 // Try it:
-// - Run createCircle for two different radii
+// - Create a third circle with a different radius
 // - Add another property (e.g. color) to the returned object

@@ -23,4 +23,4 @@ if ("radius" in circle) console.log("yes");
 
 // Try it:
 // - Log every key and value with for...in
-// - Use Object.keys and the `in` operator
+// - Use Object.keys and the `in` operator for "draw"

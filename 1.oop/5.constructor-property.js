@@ -19,9 +19,10 @@ function Circle(radius) {
 const circle = createCircle(1);
 const another = new Circle(1);
 
-console.log(circle.constructor);   // Object
-console.log(another.constructor);  // Circle
+console.log(circle.constructor); // Object
+console.log(another.constructor); // Circle
+console.log(another.constructor === Circle); // true
 
 // Try it:
 // - Log .constructor for both objects above
-// - Check: console.log(another.constructor === Circle)
+// - Check: console.log(circle.constructor === Object)
