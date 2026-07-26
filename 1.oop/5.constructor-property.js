@@ -1,5 +1,6 @@
-// Every object has a constructor property: the function that created it.
 
+
+// Factory function
 function createCircle(radius) {
   return {
     radius,
@@ -9,6 +10,7 @@ function createCircle(radius) {
   };
 }
 
+// Constructor function
 function Circle(radius) {
   this.radius = radius;
   this.draw = function () {
@@ -22,7 +24,3 @@ const another = new Circle(1);
 console.log(circle.constructor); // Object
 console.log(another.constructor); // Circle
 console.log(another.constructor === Circle); // true
-
-// Try it:
-// - Log .constructor for both objects above
-// - Check: console.log(circle.constructor === Object)
